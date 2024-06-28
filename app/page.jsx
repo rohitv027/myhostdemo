@@ -19,7 +19,7 @@ export default function Home() {
           className="bg-red-500 text-white p-5 rounded-lg mr-2"
           onClick={() => setNum(num + 1)}
         >
-          add
+          addition
         </button>
 
         {num > 0 && (
@@ -27,7 +27,7 @@ export default function Home() {
             className="bg-green-500 text-white p-5 rounded-lg mr-2"
             onClick={() => setNum(num - 1)}
           >
-            Subtract
+            Subtractraction
           </button>
         )}
       </div>
